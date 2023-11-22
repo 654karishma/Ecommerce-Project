@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.free {
+    padding: 10px 30px;
+    width: 100%;
+    height: 40px;
+    background: rgb(0, 255, 255);
+    display: flex;
+}
+
+.free .icon {
+    color: #0989ff;
+
+
+    font-size: 25px;
+}
+
+
+.free p {
+    margin-left: 10px;
+    color: rgb(244, 18, 18);
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main_header {
+
+    padding: 20px 30px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.main_header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_header .container .search_box {
+    margin-right: 30px;
+}
+
+.main_header .container .search_box input {
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #0989ff;
+    width: 300px;
+    color: #ecf2f7;
+}
+
+.main_header .container .search_box button {
+    border: 3px solid #0989ff;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #0989ff;
+    color: #ecf2f7;
+}
+
+.main_header .container .icon {
+    display: flex;
+    margin-right: 50px;
+}
+
+.main_header .container .icon .account {
+    display: flex;
+    margin-right: 30px;
+}
+
+.main_header .container .icon .account .user_icon {
+    margin-right: 10px;
+    font-size: 22px;
+    color: rgb(250, 98, 98);
+    cursor: pointer;
+}
+
+.main_header .container .icon .account p {
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.main_header .container .icon .second_icon {
+    display: flex;
+
+}
+
+.main_header .container .icon .second_icon .link {
+    margin-right: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #0989ff;
+
+}
+
+.header {
+    /* background-image: linear-gradient(to right, #00bfff, #00ffd5); */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+    width: 100%;
+    padding: 20px 30px;
+    box-shadow: #0989ff;
+}
+
+.header .container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.header .container .nav ul {
+    display: flex;
+}
+
+.header .container .nav ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header .container .nav ul li .link {
+    text-decoration: none;
+    color: #fbfbfb;
+    transition: 0.5s;
+}
+
+.header .container .nav ul li .link:hover {
+    color: #0989ff;
+}
+
+.header .conatiner .auth {
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header .conatiner .auth button {
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
